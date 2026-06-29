@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
         <div className="card-body">
           <h2>{product.title}</h2>
 
-          <p className="price">₹ {product.price}</p>
+          <p className="price">$ {product.price}</p>
 
           <p className="category">{product.category}</p>
 
